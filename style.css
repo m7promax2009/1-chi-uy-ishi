@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    gap: 253px;
+    display: flex;
+    background-color: black;
+}
+
+.header_rasm>img {
+    padding: 55px 0px 36px 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_yozuv>ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px 100px 60px 0px;
+}
+
+
+
+
+
+.header_yozuv>ul>li {
+    color: white;
+    display: flex;
+    list-style: none;
+
+
+    text-decoration: none;
+    gap: 41px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+
+    line-height: 29.05px;
+
+    text-align: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+
+
+}
+
+.kottarasm {
+    background-image: url(assets/Rectangle\ 2\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 594px;
+}
+
+.kottarasm_yozuv {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 37px 0 0 0;
+}
+
+.kottarasm_yozuv>button {
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+
+.kottarasm_yozuv>button>h1 {
+    font-family: Inter;
+    font-size: 64px;
+    line-height: 77.45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.kottarasm_karopka {
+    display: flex;
+    padding: 185px 90px 88px 90px;
+    justify-content: space-around;
+    gap: 270px;
+}
+
+.kottarasm_karopka_ichidigikaropka {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    position: relative;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+}
+
+.kottarasm_karopka_ichidigikaropka>p {
+    color: #FF0606;
+    font-family: Inter;
+    font-size: 24px;
+    position: absolute;
+    font-weight: 700;
+    line-height: 29.05px;
+    bottom: 20%;
+    left: 30%;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+
+
+.absolute {
+    width: 237px;
+    height: 209px;
+    position: absolute;
+    background-color: #F70101;
+    right: -50%;
+    top: -50%;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+}
+
+
+.absolute>p {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    position: absolute;
+    bottom: 44%;
+    left: 28%;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+.yanashuu {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    position: relative;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+}
+
+
+
+.yanashuu>P {
+    color: #FF0606;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+
+.sui {
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+    background-color: #F70101;
+    position: absolute;
+    right: -85px;
+    top: -50%;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+}
+
+
+.sui>P {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    position: absolute;
+    bottom: 44%;
+    left: 37%;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+.yana {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    position: relative;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+}
+
+
+
+.yana>p {
+    color: #FF0606;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+.yanabitta {
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    position: relative;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+}
+
+
+
+.yanabitta>P {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    position: absolute;
+    bottom: 44%;
+    right: 28%;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+.fon {
+    background-color: black;
+}
+
+
+
+.buttoni_bor_yozuv {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 79px 0 0 0;
+}
+
+.buttoni_bor_yozuv>button {
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+
+
+.buttoni_bor_yozuv>button>h2 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+}
+
+
+.karopka {
+    display: flex;
+    justify-content: space-around;
+    padding: 125px 94px 0px 94px;
+    gap: 88px;
+}
+
+
+.karopka>div {
+    background-color: #7B2525;
+    width: 368px;
+    height: 360px;
+    position: relative;
+}
+
+
+
+.karopka>div>h5 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    left: 34%;
+    top: 20%;
+}
+
+
+.karopka>div>p {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 690;
+    line-height: 24.2px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    padding: 0px 51px 0px 51px;
+}
+
+
+.karopkadigi_rasm {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+
+
+.ikkinchi_karopkadigi_rasm {
+    position: absolute;
+    left: 9%;
+    top: 40%;
+
+}
+
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 10px 0px 90px;
+    gap: 580px;
+
+}
+
+
+.foterdigi_yozuv>ul {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding: 70px 80px 60px 0px;
+}
+
+
+.foterdigi_yozuv>ul>li {
+    color: white;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 41px;
+    line-height: 29.05px;
+
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
